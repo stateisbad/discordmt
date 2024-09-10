@@ -33,7 +33,7 @@ clean_invites = true
 use_nicknames = true
 ```
 
-4. Set `discord.port` in your `minetest.conf` to match the port you used in `relay.conf`, and grant the mod permission to use the HTTP API. You may also set `discord.text_color` to a hex color string if you'd like to color relayed messages from Discord.
+4. Set `discord.port` (and optionally `discord.host` if not using `localhost`) in your `minetest.conf` to match the port you used in `relay.conf`, and grant the mod permission to use the HTTP API. You may also set `discord.text_color` to a hex color string if you'd like to color relayed messages from Discord.
 
 Example `minetest.conf` excerpt:
 ```
